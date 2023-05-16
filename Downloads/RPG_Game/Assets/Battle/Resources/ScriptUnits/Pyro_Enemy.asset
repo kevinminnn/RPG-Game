@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacffc8e8d65c2c4b9c6168ae0345736, type: 3}
+  m_Name: Pyro_Enemy
+  m_EditorClassIdentifier: 
+  name: Ho-Oh
+  desc: 
+  front: {fileID: 21300000, guid: 00d68f3d80e5a914e9a2fa3d648d12ab, type: 3}
+  back: {fileID: 21300000, guid: 316ac8b7c893d5c4498aa59e894205ad, type: 3}
+  element: 0
+  maxHp: 500
+  atk: 20
+  def: 5
+  energy: 10
+  moves:
+  - moveBase: {fileID: 11400000, guid: 0f94fe8b83a70d34d9b017f2a85604d2, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: a668b8171fe4d1e44ba89f6b06efcb57, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 42caeb460fb3ce449bfcff0b4b28524a, type: 2}
+    level: 10
